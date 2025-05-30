@@ -5,7 +5,7 @@ import { AuthModal } from '../components/AuthModal'
 
 export function Home() {
   const [isAuthModalOpen, setIsAuthModalOpen] = useState(false)
-  const [isLoggedIn, setIsLoggedIn] = useState(false) // This would come from auth context in a real app
+  const [isLoggedIn] = useState(false) // This would come from auth context in a real app
 
   return (
     <>

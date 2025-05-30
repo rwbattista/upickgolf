@@ -32,10 +32,9 @@ export const fetchPGATourData = async () => {
   const targetUrl = 'https://www.pgatour.com/tournaments'
   
   try {
-    const response = await fetch(proxyUrl + encodeURIComponent(targetUrl))
-    const data = await response.json()
+    await fetch(proxyUrl + encodeURIComponent(targetUrl))
     // Parse HTML content for tournament data
-    return parseHTMLForTournaments(data.contents)
+    return parseHTMLForTournaments()
   } catch (error) {
     console.error('PGA scraping error:', error)
     return []
@@ -60,10 +59,10 @@ export const fetchWorldRankings = async () => {
 }
 
 // Helper function to parse HTML
-const parseHTMLForTournaments = (html: string) => {
-  // This would parse the HTML to extract tournament data
-  // For a personal project, you might manually update this data weekly
-  return []
+const parseHTMLForTournaments = () => {
+  // This would parse ESPN's golf page HTML for tournament data
+  // For now, return mock data
+  return manualTournamentData
 }
 
 // Free alternative: Manual data updates
