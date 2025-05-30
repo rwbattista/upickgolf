@@ -23,7 +23,7 @@ git add .
 git commit -m "Initial commit"
 
 # Push to GitHub (create repo first on github.com)
-git remote add origin https://github.com/yourusername/upickgolf.git
+git remote add origin https://github.com/rwbattista/upickgolf.git
 git push -u origin main
 ```
 

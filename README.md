@@ -35,7 +35,7 @@ A modern fantasy golf platform where users select players from curated buckets t
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/uPickGolf.git
+   git clone https://github.com/rwbattista/upickgolf.git
    cd uPickGolf
    ```
 

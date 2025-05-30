@@ -35,7 +35,7 @@ if [ ! -d ".git" ]; then
     git commit -m "Initial commit for uPickGolf"
     
     echo "📝 Please create a GitHub repository and run:"
-    echo "git remote add origin https://github.com/yourusername/upickgolf.git"
+    echo "git remote add origin https://github.com/rwbattista/upickgolf.git"
     echo "git push -u origin main"
     echo ""
     echo "Then run this script again to continue deployment."
